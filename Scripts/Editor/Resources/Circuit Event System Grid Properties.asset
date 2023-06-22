@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4525a4179af13545bc1ab9e68de7f94, type: 3}
+  m_Name: Circuit Event System Grid Properties
+  m_EditorClassIdentifier: 
+  gridProperties:
+    gridStart: 0
+    gridOffset: {x: -424.3588, y: -5.0825577}
+    draggableGrid: 1
+    zoom: 14
+    elementSize: {x: 300, y: 300}
+    snapToGrid: 0

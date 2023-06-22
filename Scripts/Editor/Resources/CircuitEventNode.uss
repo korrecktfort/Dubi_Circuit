@@ -1,0 +1,100 @@
+VisualElement {}
+
+.root{
+	
+}
+
+.label{
+	align-self: center;
+}
+
+.pathLabel{
+	font-size: 8px;
+	align-self: center;
+}
+
+.topBar__top{
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.topBar {
+	min-height: 20px;
+	background-color: #1C1C1C;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-width: 1px;
+	border-color: #C2C2C2;	
+	border-bottom-width: 0px;
+}
+
+.top-bar:hover {
+	background-color: #464646;
+}
+
+.main {
+	flex-direction: row;
+	min-width: 100px;
+	background-color: #383838;
+	border-color: #C2C2C2;
+	border-width: 1px;	
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-width: 0px;
+	justify-content: space-between;
+	padding: 3px;
+}
+
+.select {
+	width: 16px;
+	height: 16px;
+}
+
+.left{
+	
+}
+
+.center{
+
+}
+
+.center--locked{
+	border-color: yellow;
+	border-width: 1px;
+	border-radius: 3px;
+	background-color: rgba(255, 250, 0, 0.15);
+}
+
+.right{
+	
+}
+
+.connector {
+	position: absolute;
+	min-width: 18px;
+	min-height: 60%;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #C2C2C2;
+	background-color: #5F5F5F;
+	top: 10px;
+}
+
+.connector:hover {
+	background-color: #b69f97;
+}
+
+.connector--left{
+	left: -10px;
+}
+
+.connector--right{
+	right: -10px;
+}
+
+.locked-text{
+	color: yellow;
+	align-self: center;
+}

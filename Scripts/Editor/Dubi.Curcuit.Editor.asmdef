@@ -1,0 +1,19 @@
+{
+    "name": "Dubi.Curcuit.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:812c900f176ffdb43a31b36e164b1e05",
+        "GUID:09f9ee5ea0659324fbd59919515c11c6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
